@@ -1,0 +1,52 @@
+body {
+	font-family: 'Noto Sans KR', sans-serif;
+	background-color: #FFF5EE;
+	color: #333;
+}
+
+header {
+	background-color: #F08080;
+	padding: 20px;
+	text-align: center;
+}
+
+h1 {
+	margin: 0;
+	font-size: 3rem;
+	color: #FFF;
+	text-shadow: 2px 2px #333;
+}
+
+main {
+	margin: 20px;
+}
+
+section {
+	margin: 40px 0;
+}
+
+h2 {
+	font-size: 2rem;
+}
+
+p {
+	line-height: 1.5;
+}
+
+ul {
+	list-style: none;
+	padding: 0;
+}
+
+li {
+	margin-bottom: 10px;
+}
+
+a {
+	color: #333;
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
