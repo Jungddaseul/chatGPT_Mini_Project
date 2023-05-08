@@ -2,14 +2,25 @@
 
 def reserve_campsite(campsite_name, start_date, end_date):
     # 캠핑장 예약을 처리하는 함수입니다.
-    print("예약이 처리 되었습니다.")
+    people = input("인원이 몇명입니까?")
+    print(f"{people}명 {start_date} 부터 {end_date}까지 예약이 처리 되었습니다.")
     # 이 함수는 실제로는 구현되어 있지 않기 때문에 예시로 None을 반환합니다.
     return True
 
 def select_equipment(campsite_name, start_date, end_date):
     # 캠핑 장비 선택을 처리하는 함수입니다.
     # 이 함수는 실제로는 구현되어 있지 않기 때문에 예시로 None을 반환합니다.
-    return None
+    use_chair = input("의자를 사용하시겠습니까?(y/n)")
+    use_line = input("전선을 사용하시겠습니까?(y/n)")
+    use_bbq = input("바베큐를 사용하시겠습니까?(y/n)")
+
+    if use_chair == "y":
+        print("의자를 선택했습니다.")
+    if use_line == "y":
+        print("전선사용을 선택하셨습니다.")
+    if use_bbq == "y":
+        print("바베큐를 선택하셨습니다.")
+    return True
 
 def main():
     # 사용자로부터 예약 정보를 입력받습니다.
