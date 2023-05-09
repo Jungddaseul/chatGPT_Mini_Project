@@ -7,4 +7,4 @@
 
 
 ## 📌 데이터 분석 및 시각화
-- 01 서울시 박물관미술정보 데이터 셋을 이용하여 **folium를 활용하여 위치 시각화**  👉 저장소 [이동하기](https://github.com/Jungddaseul/chatGPT_Mini_Project/tree/main/pandas_folium) 👩‍💻 [코드](https://github.com/Jungddaseul/chatGPT_Mini_Project/tree/main/pandas_folium/seoul_food_folium.ipynb) 📊 [결과물](https://github.com/Jungddaseul/chatGPT_Mini_Project/tree/main/pandas_folium/seoul_museums.html)
+- 01 서울시 박물관미술정보 데이터 셋을 이용하여 **folium를 활용하여 위치 시각화**  👉 저장소 [이동하기](https://github.com/Jungddaseul/chatGPT_Mini_Project/tree/main/pandas_folium) 👩‍💻 [코드](./seoul_food_folium.ipynb) 📊 [결과물](https://github.com/Jungddaseul/chatGPT_Mini_Project/tree/main/pandas_folium/seoul_museums.html)
