@@ -16,6 +16,7 @@
 - 서울 시청을 중심으로 하는 지도 생성(chatGPT를 통해 서울시청 중심으로하는 위도, 경도 데이터 확인)
 > <img width="800" alt="image01" src="https://user-images.githubusercontent.com/114555218/237041804-3fec8d14-3f68-4db8-9056-b91411883da4.png">
 - Marker()를 이용하여 위도, 경도에 따른 마커 및 해당정보 팝업 생성
-
-
-
+> 1. 시설명만 표시
+> <img width="1150" alt="image02" src="https://user-images.githubusercontent.com/114555218/237042105-aabe3c6e-5e85-41e1-9b7b-b547e58daed8.png">
+> 2. 시설명, 요금 표시
+> <img width="1083" alt="image03" src="https://user-images.githubusercontent.com/114555218/237042121-1f44aed7-4a09-41b5-b2a1-a0cba9b49f89.png">
