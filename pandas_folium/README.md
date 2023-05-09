@@ -16,3 +16,4 @@
 - 서울 시청을 중심으로 하는 지도 생성(chatGPT를 통해 서울시청 중심으로하는 위도, 경도 데이터 확인) [image01](pandas_folium/image01.png)
 - Marker()를 이용하여 위도, 경도에 따른 마커 및 해당정보 팝업 생성
 
+<img width="100" alt="image" src="https://user-images.githubusercontent.com/114555218/237041333-f790d975-7ec8-47b2-947c-a1f4cb0263b2.png">
