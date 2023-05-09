@@ -1,0 +1,3207 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_fff6955d0007407fe41066281b991c01 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_fff6955d0007407fe41066281b991c01" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_fff6955d0007407fe41066281b991c01 = L.map(
+                "map_fff6955d0007407fe41066281b991c01",
+                {
+                    center: [37.566345, 126.977893],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 15,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_77bed42e49fe02afdccaf9b74bbb73da = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca target=\"_blank\" href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca target=\"_blank\" href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_fff6955d0007407fe41066281b991c01);
+        
+    
+            var marker_6d41545fd3a5f483517b65bd3345b39b = L.marker(
+                [37.65243153, 127.0276397],
+                {}
+            ).addTo(map_fff6955d0007407fe41066281b991c01);
+        
+    
+            marker_6d41545fd3a5f483517b65bd3345b39b.bindTooltip(
+                `<div>
+                     둘리뮤지엄
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_7317956ce68278f765b748ac57c7b9fc = L.marker(
+                [37.57675252, 126.9378582],
+                {}
+            ).addTo(map_fff6955d0007407fe41066281b991c01);
+        
+    
+            marker_7317956ce68278f765b748ac57c7b9fc.bindTooltip(
+                `<div>
+                     서대문자연사박물관
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_4bc8f23eb907c3a8ca7e6c0efd756f20 = L.marker(
+                [37.57244171, 126.9595412],
+                {}
+            ).addTo(map_fff6955d0007407fe41066281b991c01);
+        
+    
+            marker_4bc8f23eb907c3a8ca7e6c0efd756f20.bindTooltip(
+                `<div>
+                     서대문형무소역사관
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_fbed3dcbe666e0de4d2f75b8d181d466 = L.marker(
+                [37.58103147, 126.983694],
+                {}
+            ).addTo(map_fff6955d0007407fe41066281b991c01);
+        
+    
+            marker_fbed3dcbe666e0de4d2f75b8d181d466.bindTooltip(
+                `<div>
+                     서울교육박물관
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_3caf098c3ebd8a1fa5771fd071ba6af0 = L.marker(
+                [37.54945787, 127.0862609],
+                {}
+            ).addTo(map_fff6955d0007407fe41066281b991c01);
+        
+    
+            marker_3caf098c3ebd8a1fa5771fd071ba6af0.bindTooltip(
+                `<div>
+                     서울상상나라
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_7495f8a46fc2223ddcc40daf665107c3 = L.marker(
+                [37.57087947, 126.9688292],
+                {}
+            ).addTo(map_fff6955d0007407fe41066281b991c01);
+        
+    
+            marker_7495f8a46fc2223ddcc40daf665107c3.bindTooltip(
+                `<div>
+                     서울역사박물관
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_7717da7b56c40f19403de93d724f24d5 = L.marker(
+                [37.59322963, 126.9982179],
+                {}
+            ).addTo(map_fff6955d0007407fe41066281b991c01);
+        
+    
+            marker_7717da7b56c40f19403de93d724f24d5.bindTooltip(
+                `<div>
+                     성북선잠박물관
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_c8f2629ea93eea15b7cfe6bdbc3c7c95 = L.marker(
+                [37.55562546, 126.9638899],
+                {}
+            ).addTo(map_fff6955d0007407fe41066281b991c01);
+        
+    
+            marker_c8f2629ea93eea15b7cfe6bdbc3c7c95.bindTooltip(
+                `<div>
+                     손기정기념관
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_1cefd2313938c4409e132b224fb0d6e1 = L.marker(
+                [37.64033477, 126.9380085],
+                {}
+            ).addTo(map_fff6955d0007407fe41066281b991c01);
+        
+    
+            marker_1cefd2313938c4409e132b224fb0d6e1.bindTooltip(
+                `<div>
+                     수도박물관
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_54d1120e8ba927f58f3b37b874a0feab = L.marker(
+                [37.58318496, 126.9889549],
+                {}
+            ).addTo(map_fff6955d0007407fe41066281b991c01);
+        
+    
+            marker_54d1120e8ba927f58f3b37b874a0feab.bindTooltip(
+                `<div>
+                     은평역사한옥박물관
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_307c9ca33dfb018c4339ad60a858eadc = L.marker(
+                [37.57126473, 127.0350421],
+                {}
+            ).addTo(map_fff6955d0007407fe41066281b991c01);
+        
+    
+            marker_307c9ca33dfb018c4339ad60a858eadc.bindTooltip(
+                `<div>
+                     종로구립 고희동 미술자료관
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_94a73c4d9837c694f67166c1e6603c18 = L.marker(
+                [37.5154282, 127.1208007],
+                {}
+            ).addTo(map_fff6955d0007407fe41066281b991c01);
+        
+    
+            marker_94a73c4d9837c694f67166c1e6603c18.bindTooltip(
+                `<div>
+                     청계천박물관
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_f647e35d6ee5e7f6dc54b1217f65efaa = L.marker(
+                [37.56787164, 126.8510306],
+                {}
+            ).addTo(map_fff6955d0007407fe41066281b991c01);
+        
+    
+            marker_f647e35d6ee5e7f6dc54b1217f65efaa.bindTooltip(
+                `<div>
+                     한성백제박물관
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_1ecb204c80a2de017ca738774db05916 = L.marker(
+                [37.58160503, 126.9852494],
+                {}
+            ).addTo(map_fff6955d0007407fe41066281b991c01);
+        
+    
+            marker_1ecb204c80a2de017ca738774db05916.bindTooltip(
+                `<div>
+                     허준박물관
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_add2903de73cb471624ec469e699571f = L.marker(
+                [37.48766827, 127.0657421],
+                {}
+            ).addTo(map_fff6955d0007407fe41066281b991c01);
+        
+    
+            marker_add2903de73cb471624ec469e699571f.bindTooltip(
+                `<div>
+                     가회민화박물관
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_b44c35a2fa39f082b48a6d33c4c33858 = L.marker(
+                [37.5596784, 126.9632021],
+                {}
+            ).addTo(map_fff6955d0007407fe41066281b991c01);
+        
+    
+            marker_b44c35a2fa39f082b48a6d33c4c33858.bindTooltip(
+                `<div>
+                     경기여자고등학교 
+경운박물관
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_4abb320f99d02866c2268249f6e96157 = L.marker(
+                [37.47375026, 127.022282],
+                {}
+            ).addTo(map_fff6955d0007407fe41066281b991c01);
+        
+    
+            marker_4abb320f99d02866c2268249f6e96157.bindTooltip(
+                `<div>
+                     고촌이종근기념관
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_d3771fc315801defa3038c15dd346302 = L.marker(
+                [37.55326331, 126.9298387],
+                {}
+            ).addTo(map_fff6955d0007407fe41066281b991c01);
+        
+    
+            marker_d3771fc315801defa3038c15dd346302.bindTooltip(
+                `<div>
+                     관문사 성보 박물관
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_2c7c517e24a23e6403a269813847594f = L.marker(
+                [37.55361879, 126.8507495],
+                {}
+            ).addTo(map_fff6955d0007407fe41066281b991c01);
+        
+    
+            marker_2c7c517e24a23e6403a269813847594f.bindTooltip(
+                `<div>
+                     근현대디자인박물관
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_079a9f11040fa67d6ae927c9e2c8970e = L.marker(
+                [37.60035632, 126.9558572],
+                {}
+            ).addTo(map_fff6955d0007407fe41066281b991c01);
+        
+    
+            marker_079a9f11040fa67d6ae927c9e2c8970e.bindTooltip(
+                `<div>
+                     기생충박물관
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_e28b9cc1b3a74e96786dfcf3cba75ea6 = L.marker(
+                [37.5664602, 126.9677352],
+                {}
+            ).addTo(map_fff6955d0007407fe41066281b991c01);
+        
+    
+            marker_e28b9cc1b3a74e96786dfcf3cba75ea6.bindTooltip(
+                `<div>
+                     꼭두박물관
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_6a3eecd6adfa97ea64c32fe814608866 = L.marker(
+                [37.61877901, 126.9325193],
+                {}
+            ).addTo(map_fff6955d0007407fe41066281b991c01);
+        
+    
+            marker_6a3eecd6adfa97ea64c32fe814608866.bindTooltip(
+                `<div>
+                     농협 농업박물관
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_0fa6ff46e4f47ed42df08696feb20a60 = L.marker(
+                [37.52395048, 127.0356033],
+                {}
+            ).addTo(map_fff6955d0007407fe41066281b991c01);
+        
+    
+            marker_0fa6ff46e4f47ed42df08696feb20a60.bindTooltip(
+                `<div>
+                     세계다문화박물관
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_5e64c683f8036e448c05a6f73ff3a1a2 = L.marker(
+                [37.57490095, 126.9906387],
+                {}
+            ).addTo(map_fff6955d0007407fe41066281b991c01);
+        
+    
+            marker_5e64c683f8036e448c05a6f73ff3a1a2.bindTooltip(
+                `<div>
+                     도산안창호기념관
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_3b959456d2cd1f579a6afe1c3407a16f = L.marker(
+                [37.51375212, 127.1044469],
+                {}
+            ).addTo(map_fff6955d0007407fe41066281b991c01);
+        
+    
+            marker_3b959456d2cd1f579a6afe1c3407a16f.bindTooltip(
+                `<div>
+                     떡박물관
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_fdbe72ec1946ef81a8b557446eab172d = L.marker(
+                [37.51070945, 127.0999377],
+                {}
+            ).addTo(map_fff6955d0007407fe41066281b991c01);
+        
+    
+            marker_fdbe72ec1946ef81a8b557446eab172d.bindTooltip(
+                `<div>
+                     롯데월드 아쿠아리움
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_cf58e9ecfa969cb17a7e32a021407fc3 = L.marker(
+                [37.58016368, 126.985185],
+                {}
+            ).addTo(map_fff6955d0007407fe41066281b991c01);
+        
+    
+            marker_cf58e9ecfa969cb17a7e32a021407fc3.bindTooltip(
+                `<div>
+                     롯데월드 민속박물관
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_146ea2685375c190a3c4dad1d0681778 = L.marker(
+                [37.57355543, 126.984866],
+                {}
+            ).addTo(map_fff6955d0007407fe41066281b991c01);
+        
+    
+            marker_146ea2685375c190a3c4dad1d0681778.bindTooltip(
+                `<div>
+                     목인박물관
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_41287bb087a8b2d361ddc81fedaf89fa = L.marker(
+                [37.6538158, 127.0084889],
+                {}
+            ).addTo(map_fff6955d0007407fe41066281b991c01);
+        
+    
+            marker_41287bb087a8b2d361ddc81fedaf89fa.bindTooltip(
+                `<div>
+                     뮤지엄김치간
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_1cb40fd9affef02e7c6f19f22e9f3bcd = L.marker(
+                [37.56401227, 126.9725854],
+                {}
+            ).addTo(map_fff6955d0007407fe41066281b991c01);
+        
+    
+            marker_1cb40fd9affef02e7c6f19f22e9f3bcd.bindTooltip(
+                `<div>
+                     박을복자수박물관
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_02d79686457d9a53e3ab5175ab4c49c6 = L.marker(
+                [37.54427779, 126.9592536],
+                {}
+            ).addTo(map_fff6955d0007407fe41066281b991c01);
+        
+    
+            marker_02d79686457d9a53e3ab5175ab4c49c6.bindTooltip(
+                `<div>
+                     배재학당역사박물관
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_62fa58cc66a27f3fa0f297b5bbc6b335 = L.marker(
+                [37.57327196, 126.9867814],
+                {}
+            ).addTo(map_fff6955d0007407fe41066281b991c01);
+        
+    
+            marker_62fa58cc66a27f3fa0f297b5bbc6b335.bindTooltip(
+                `<div>
+                     백범김구기념관
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_525279fe3ec5df4a11c4c39d9ccc23a8 = L.marker(
+                [37.58043, 126.9847656],
+                {}
+            ).addTo(map_fff6955d0007407fe41066281b991c01);
+        
+    
+            marker_525279fe3ec5df4a11c4c39d9ccc23a8.bindTooltip(
+                `<div>
+                     북촌동양문화박물관
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_b0211a70449a004b34c6316592918e03 = L.marker(
+                [37.584493, 126.9829955],
+                {}
+            ).addTo(map_fff6955d0007407fe41066281b991c01);
+        
+    
+            marker_b0211a70449a004b34c6316592918e03.bindTooltip(
+                `<div>
+                     북촌박물관
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_2f19ce7b3c250a1018940296cde717e8 = L.marker(
+                [37.57389389, 126.9818818],
+                {}
+            ).addTo(map_fff6955d0007407fe41066281b991c01);
+        
+    
+            marker_2f19ce7b3c250a1018940296cde717e8.bindTooltip(
+                `<div>
+                     북촌생활사박물관
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_2673080c1affab94ec7ed0d253a967f3 = L.marker(
+                [37.56539367, 127.1477157],
+                {}
+            ).addTo(map_fff6955d0007407fe41066281b991c01);
+        
+    
+            marker_2673080c1affab94ec7ed0d253a967f3.bindTooltip(
+                `<div>
+                     불교중앙박물관
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_3de63bf6c98dbf1de466e04481774ea6 = L.marker(
+                [37.6087015, 126.9570781],
+                {}
+            ).addTo(map_fff6955d0007407fe41066281b991c01);
+        
+    
+            marker_3de63bf6c98dbf1de466e04481774ea6.bindTooltip(
+                `<div>
+                     브이센터 더 라이브 뮤지엄
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_6c8674f40bffa8378bb76553403104d8 = L.marker(
+                [37.56222376, 126.9878243],
+                {}
+            ).addTo(map_fff6955d0007407fe41066281b991c01);
+        
+    
+            marker_6c8674f40bffa8378bb76553403104d8.bindTooltip(
+                `<div>
+                     삼성출판박물관
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_81fb4ea72ab24f5611ef7fddcc91a51f = L.marker(
+                [37.56627097, 126.9803939],
+                {}
+            ).addTo(map_fff6955d0007407fe41066281b991c01);
+        
+    
+            marker_81fb4ea72ab24f5611ef7fddcc91a51f.bindTooltip(
+                `<div>
+                     샬트르성바오로수녀회 역사박물관
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_ffe4c876ad2e7c3fff2a0ac510edec44 = L.marker(
+                [37.57880969, 126.9970208],
+                {}
+            ).addTo(map_fff6955d0007407fe41066281b991c01);
+        
+    
+            marker_ffe4c876ad2e7c3fff2a0ac510edec44.bindTooltip(
+                `<div>
+                     서울그레뱅뮤지엄
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_afed047134bfd1a7099547910df03cfc = L.marker(
+                [37.51889593, 127.115509],
+                {}
+            ).addTo(map_fff6955d0007407fe41066281b991c01);
+        
+    
+            marker_afed047134bfd1a7099547910df03cfc.bindTooltip(
+                `<div>
+                     서울대학교병원 의학박물관
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_3515aa0661def6c557aab5990cace501 = L.marker(
+                [37.5081228, 127.0618874],
+                {}
+            ).addTo(map_fff6955d0007407fe41066281b991c01);
+        
+    
+            marker_3515aa0661def6c557aab5990cace501.bindTooltip(
+                `<div>
+                     서울올림픽기념관
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_fb905515d322fd2f308c5d8a51af23f2 = L.marker(
+                [37.58096684, 126.9818002],
+                {}
+            ).addTo(map_fff6955d0007407fe41066281b991c01);
+        
+    
+            marker_fb905515d322fd2f308c5d8a51af23f2.bindTooltip(
+                `<div>
+                     세계골프역사박물관
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_32e602f4e9e0696465ccec0f322422dd = L.marker(
+                [37.57981529, 127.0046233],
+                {}
+            ).addTo(map_fff6955d0007407fe41066281b991c01);
+        
+    
+            marker_32e602f4e9e0696465ccec0f322422dd.bindTooltip(
+                `<div>
+                     세계장신구박물관
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_7c507325060b1c42eadb4694c7e143e4 = L.marker(
+                [37.59950589, 126.9556793],
+                {}
+            ).addTo(map_fff6955d0007407fe41066281b991c01);
+        
+    
+            marker_7c507325060b1c42eadb4694c7e143e4.bindTooltip(
+                `<div>
+                     쇳대박물관
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_861504acdde041dd4867b433d759a530 = L.marker(
+                [37.56986879, 126.9776582],
+                {}
+            ).addTo(map_fff6955d0007407fe41066281b991c01);
+        
+    
+            marker_861504acdde041dd4867b433d759a530.bindTooltip(
+                `<div>
+                     쉼박물관
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_a7d4ee603e31a02f6e543dfe9b5de9f1 = L.marker(
+                [37.51966412, 126.9399092],
+                {}
+            ).addTo(map_fff6955d0007407fe41066281b991c01);
+        
+    
+            marker_a7d4ee603e31a02f6e543dfe9b5de9f1.bindTooltip(
+                `<div>
+                     신문박물관 PRESSEUM
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_74081b76a3a47776eac8e1bc40e57b7f = L.marker(
+                [37.61189018, 126.9717567],
+                {}
+            ).addTo(map_fff6955d0007407fe41066281b991c01);
+        
+    
+            marker_74081b76a3a47776eac8e1bc40e57b7f.bindTooltip(
+                `<div>
+                     안중근의사기념관
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_dfaf737384b7cb2f0b793e25f6309f0e = L.marker(
+                [126.9817505, 37.55943913],
+                {}
+            ).addTo(map_fff6955d0007407fe41066281b991c01);
+        
+    
+            marker_dfaf737384b7cb2f0b793e25f6309f0e.bindTooltip(
+                `<div>
+                     우리옛돌박물관
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_cf4681f82b3d46c680999e1482e690cc = L.marker(
+                [37.59371971, 126.9626575],
+                {}
+            ).addTo(map_fff6955d0007407fe41066281b991c01);
+        
+    
+            marker_cf4681f82b3d46c680999e1482e690cc.bindTooltip(
+                `<div>
+                     우석뮤지엄
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_bb30b2e5b7966314c8907564f022c986 = L.marker(
+                [37.55496014, 126.9338173],
+                {}
+            ).addTo(map_fff6955d0007407fe41066281b991c01);
+        
+    
+            marker_bb30b2e5b7966314c8907564f022c986.bindTooltip(
+                `<div>
+                     유금와당박물관
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_6fcea2d0505509fcc2011a3abd490168 = L.marker(
+                [37.56623131, 126.970695],
+                {}
+            ).addTo(map_fff6955d0007407fe41066281b991c01);
+        
+    
+            marker_6fcea2d0505509fcc2011a3abd490168.bindTooltip(
+                `<div>
+                     이한열기념관
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_2d03366572e2d2a77e96d06eee3a9794 = L.marker(
+                [37.485889, 127.028535],
+                {}
+            ).addTo(map_fff6955d0007407fe41066281b991c01);
+        
+    
+            marker_2d03366572e2d2a77e96d06eee3a9794.bindTooltip(
+                `<div>
+                     전기박물관
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_9749713b1e5797a6411f9ff383c4ed2d = L.marker(
+                [37.560103, 126.914879],
+                {}
+            ).addTo(map_fff6955d0007407fe41066281b991c01);
+        
+    
+            marker_9749713b1e5797a6411f9ff383c4ed2d.bindTooltip(
+                `<div>
+                     전쟁과여성인권박물관
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_35063ad9c475b224e5b62fba3fa0bd23 = L.marker(
+                [37.559634, 127.00616],
+                {}
+            ).addTo(map_fff6955d0007407fe41066281b991c01);
+        
+    
+            marker_35063ad9c475b224e5b62fba3fa0bd23.bindTooltip(
+                `<div>
+                     종이나라박물관
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_781d0b1f550f8d94ea9dc484fe3828f9 = L.marker(
+                [37.584851, 126.999954],
+                {}
+            ).addTo(map_fff6955d0007407fe41066281b991c01);
+        
+    
+            marker_781d0b1f550f8d94ea9dc484fe3828f9.bindTooltip(
+                `<div>
+                     짚풀생활사박물관
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_307b99d2e86c0a36bcddff8d26373eef = L.marker(
+                [37.558158, 126.984233],
+                {}
+            ).addTo(map_fff6955d0007407fe41066281b991c01);
+        
+    
+            marker_307b99d2e86c0a36bcddff8d26373eef.bindTooltip(
+                `<div>
+                     초전섬유퀼트박물관
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_4fa60d3edb88ab19fe223d41dddd7121 = L.marker(
+                [37.571517, 126.990288],
+                {}
+            ).addTo(map_fff6955d0007407fe41066281b991c01);
+        
+    
+            marker_4fa60d3edb88ab19fe223d41dddd7121.bindTooltip(
+                `<div>
+                     춘원당한방박물관
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_ea9c3307d05c4e278f19f14443279808 = L.marker(
+                [37.479002, 127.102944],
+                {}
+            ).addTo(map_fff6955d0007407fe41066281b991c01);
+        
+    
+            marker_ea9c3307d05c4e278f19f14443279808.bindTooltip(
+                `<div>
+                     탄허기념박물관
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_518cd8bed539a3cdef624d8eaac6595f = L.marker(
+                [37.491971, 126.844051],
+                {}
+            ).addTo(map_fff6955d0007407fe41066281b991c01);
+        
+    
+            marker_518cd8bed539a3cdef624d8eaac6595f.bindTooltip(
+                `<div>
+                     평강성서유물박물관
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_9d093f87797e585fbc7272fc15d654eb = L.marker(
+                [37.600014, 126.99312],
+                {}
+            ).addTo(map_fff6955d0007407fe41066281b991c01);
+        
+    
+            marker_9d093f87797e585fbc7272fc15d654eb.bindTooltip(
+                `<div>
+                     한국가구박물관
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_78ce0a5f561f71760f6591533047d1c0 = L.marker(
+                [37.51583, 127.099222],
+                {}
+            ).addTo(map_fff6955d0007407fe41066281b991c01);
+        
+    
+            marker_78ce0a5f561f71760f6591533047d1c0.bindTooltip(
+                `<div>
+                     한국광고박물관
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_882017e2815f1b9ac39937b65cb17084 = L.marker(
+                [37.56846, 126.976273],
+                {}
+            ).addTo(map_fff6955d0007407fe41066281b991c01);
+        
+    
+            marker_882017e2815f1b9ac39937b65cb17084.bindTooltip(
+                `<div>
+                     한국금융사박물관
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_bb4459802a9c591aa8a5c3dd215d36fb = L.marker(
+                [37.562075, 126.980538],
+                {}
+            ).addTo(map_fff6955d0007407fe41066281b991c01);
+        
+    
+            marker_bb4459802a9c591aa8a5c3dd215d36fb.bindTooltip(
+                `<div>
+                     한국은행 화폐박물관
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_9c6b73546be0bb23307b5b49f5623713 = L.marker(
+                [37.519773, 126.930237],
+                {}
+            ).addTo(map_fff6955d0007407fe41066281b991c01);
+        
+    
+            marker_9c6b73546be0bb23307b5b49f5623713.bindTooltip(
+                `<div>
+                     한국잡지박물관
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_d4e1b5a4169a49963cf338ce040550a2 = L.marker(
+                [37.575461, 127.005507],
+                {}
+            ).addTo(map_fff6955d0007407fe41066281b991c01);
+        
+    
+            marker_d4e1b5a4169a49963cf338ce040550a2.bindTooltip(
+                `<div>
+                     한국현대의상박물관
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_aa0536a792371e06ef4ef63dce4c803c = L.marker(
+                [37.587793, 126.998591],
+                {}
+            ).addTo(map_fff6955d0007407fe41066281b991c01);
+        
+    
+            marker_aa0536a792371e06ef4ef63dce4c803c.bindTooltip(
+                `<div>
+                     한무숙 문학관
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_d8024da3dcd06c60cea969fffe1d6fde = L.marker(
+                [37.592904, 127.000314],
+                {}
+            ).addTo(map_fff6955d0007407fe41066281b991c01);
+        
+    
+            marker_d8024da3dcd06c60cea969fffe1d6fde.bindTooltip(
+                `<div>
+                     혜곡최순우기념관
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_cedf67d8a4a4d31df87f70ea58dd9dfe = L.marker(
+                [37.604654, 126.965901],
+                {}
+            ).addTo(map_fff6955d0007407fe41066281b991c01);
+        
+    
+            marker_cedf67d8a4a4d31df87f70ea58dd9dfe.bindTooltip(
+                `<div>
+                     화정박물관
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_449c8f699abfc7f08f1a285173d20b25 = L.marker(
+                [37.542383, 127.075614],
+                {}
+            ).addTo(map_fff6955d0007407fe41066281b991c01);
+        
+    
+            marker_449c8f699abfc7f08f1a285173d20b25.bindTooltip(
+                `<div>
+                     건국대학교박물관
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_aac0435aaf34cf796b971865c6a006a8 = L.marker(
+                [37.59771, 127.055198],
+                {}
+            ).addTo(map_fff6955d0007407fe41066281b991c01);
+        
+    
+            marker_aac0435aaf34cf796b971865c6a006a8.bindTooltip(
+                `<div>
+                     경희대학교 자연사박물관
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_31a111c000350ff94d0a3b861567b5d1 = L.marker(
+                [37.597043, 127.053142],
+                {}
+            ).addTo(map_fff6955d0007407fe41066281b991c01);
+        
+    
+            marker_31a111c000350ff94d0a3b861567b5d1.bindTooltip(
+                `<div>
+                     경희대학교 중앙박물관
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_a48e259003a30210b16d922f1661cc8a = L.marker(
+                [37.589433, 127.034532],
+                {}
+            ).addTo(map_fff6955d0007407fe41066281b991c01);
+        
+    
+            marker_a48e259003a30210b16d922f1661cc8a.bindTooltip(
+                `<div>
+                     고려대학교박물관
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_33f2c6e7fb1d3572799c2dc399f0b369 = L.marker(
+                [37.612707, 126.993619],
+                {}
+            ).addTo(map_fff6955d0007407fe41066281b991c01);
+        
+    
+            marker_33f2c6e7fb1d3572799c2dc399f0b369.bindTooltip(
+                `<div>
+                     국민대학교박물관
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_1dcd374941120fa982447f5c9aff19a8 = L.marker(
+                [37.652736, 127.016541],
+                {}
+            ).addTo(map_fff6955d0007407fe41066281b991c01);
+        
+    
+            marker_1dcd374941120fa982447f5c9aff19a8.bindTooltip(
+                `<div>
+                     덕성여자대학교박물관
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_34552d5bec7d3ad9a8a681b70082a8ec = L.marker(
+                [37.642261, 127.107832],
+                {}
+            ).addTo(map_fff6955d0007407fe41066281b991c01);
+        
+    
+            marker_34552d5bec7d3ad9a8a681b70082a8ec.bindTooltip(
+                `<div>
+                     삼육대학교박물관
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_56883c2b95302bbbf9ce84324db323e6 = L.marker(
+                [37.610541, 126.975955],
+                {}
+            ).addTo(map_fff6955d0007407fe41066281b991c01);
+        
+    
+            marker_56883c2b95302bbbf9ce84324db323e6.bindTooltip(
+                `<div>
+                     상명대학교 박물관
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_794d5fadaedaf335f7b7be2a1f165e97 = L.marker(
+                [37.46453, 126.952209],
+                {}
+            ).addTo(map_fff6955d0007407fe41066281b991c01);
+        
+    
+            marker_794d5fadaedaf335f7b7be2a1f165e97.bindTooltip(
+                `<div>
+                     서울대학교박물관
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_9ee5391a2615469649e4e638770262a0 = L.marker(
+                [37.583155, 127.056948],
+                {}
+            ).addTo(map_fff6955d0007407fe41066281b991c01);
+        
+    
+            marker_9ee5391a2615469649e4e638770262a0.bindTooltip(
+                `<div>
+                     서울시립대학교 박물관
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_f416851f69389fdc83dcc6f631373a15 = L.marker(
+                [37.587447, 126.994751],
+                {}
+            ).addTo(map_fff6955d0007407fe41066281b991c01);
+        
+    
+            marker_f416851f69389fdc83dcc6f631373a15.bindTooltip(
+                `<div>
+                     성균관대학교 박물관
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_45370a7ffad82931d87f3bdf90e1c407 = L.marker(
+                [37.591711, 127.021257],
+                {}
+            ).addTo(map_fff6955d0007407fe41066281b991c01);
+        
+    
+            marker_45370a7ffad82931d87f3bdf90e1c407.bindTooltip(
+                `<div>
+                     성신여자대학교 박물관
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_f3514ee5f8744e67da09d31fe8f2c59c = L.marker(
+                [37.55152, 127.075253],
+                {}
+            ).addTo(map_fff6955d0007407fe41066281b991c01);
+        
+    
+            marker_f3514ee5f8744e67da09d31fe8f2c59c.bindTooltip(
+                `<div>
+                     세종대학교박물관
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_dcb51a9c1dce2a4e3bdc8194d8b0aebe = L.marker(
+                [37.544679, 126.96411],
+                {}
+            ).addTo(map_fff6955d0007407fe41066281b991c01);
+        
+    
+            marker_dcb51a9c1dce2a4e3bdc8194d8b0aebe.bindTooltip(
+                `<div>
+                     숙명여자대학교박물관
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_b1ccbf662b0a936f017f52a06ac31b92 = L.marker(
+                [37.495555, 126.95707],
+                {}
+            ).addTo(map_fff6955d0007407fe41066281b991c01);
+        
+    
+            marker_b1ccbf662b0a936f017f52a06ac31b92.bindTooltip(
+                `<div>
+                     숭실대학교 한국기독교박물관
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_fbed42d32a070328116b78b4c7f4672f = L.marker(
+                [37.561825, 126.937904],
+                {}
+            ).addTo(map_fff6955d0007407fe41066281b991c01);
+        
+    
+            marker_fbed42d32a070328116b78b4c7f4672f.bindTooltip(
+                `<div>
+                     연세대학교박물관
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_18e9d90744f442cc6e9eb99d7c10ab2f = L.marker(
+                [37.560298, 126.944735],
+                {}
+            ).addTo(map_fff6955d0007407fe41066281b991c01);
+        
+    
+            marker_18e9d90744f442cc6e9eb99d7c10ab2f.bindTooltip(
+                `<div>
+                     이화여대박물관
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_cfd5a165df710b48ba82b0a07fc818ac = L.marker(
+                [37.560603, 126.948208],
+                {}
+            ).addTo(map_fff6955d0007407fe41066281b991c01);
+        
+    
+            marker_cfd5a165df710b48ba82b0a07fc818ac.bindTooltip(
+                `<div>
+                     이화여자대학교 자연사박물관
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_7e79dc99637bf087c0a734c706298909 = L.marker(
+                [37.555271, 127.044727],
+                {}
+            ).addTo(map_fff6955d0007407fe41066281b991c01);
+        
+    
+            marker_7e79dc99637bf087c0a734c706298909.bindTooltip(
+                `<div>
+                     한양대학교박물관
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_dd2b59924f1709f7216b06fd8319cd20 = L.marker(
+                [37.550714, 126.926043],
+                {}
+            ).addTo(map_fff6955d0007407fe41066281b991c01);
+        
+    
+            marker_dd2b59924f1709f7216b06fd8319cd20.bindTooltip(
+                `<div>
+                     홍익대학교  박물관
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_0c703dea327cdc30c0862ccf0329f6e8 = L.marker(
+                [37.606597, 127.042782],
+                {}
+            ).addTo(map_fff6955d0007407fe41066281b991c01);
+        
+    
+            marker_0c703dea327cdc30c0862ccf0329f6e8.bindTooltip(
+                `<div>
+                     동덕여자대학교박물관
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_aff89ca1d4fc737cc7b9a459ac6dda22 = L.marker(
+                [37.57224, 126.838467],
+                {}
+            ).addTo(map_fff6955d0007407fe41066281b991c01);
+        
+    
+            marker_aff89ca1d4fc737cc7b9a459ac6dda22.bindTooltip(
+                `<div>
+                     겸재정선미술관
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_daa88ce9b010f0507b6d37ff91815f65 = L.marker(
+                [37.46642, 126.949626],
+                {}
+            ).addTo(map_fff6955d0007407fe41066281b991c01);
+        
+    
+            marker_daa88ce9b010f0507b6d37ff91815f65.bindTooltip(
+                `<div>
+                     서울특별시대학교 미술관
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_b7249249e347f48e0b3253e0aaf7faf8 = L.marker(
+                [37.573184, 126.982093],
+                {}
+            ).addTo(map_fff6955d0007407fe41066281b991c01);
+        
+    
+            marker_b7249249e347f48e0b3253e0aaf7faf8.bindTooltip(
+                `<div>
+                     OCI미술관
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_579d91151abc1d0414a72b23e4417d1f = L.marker(
+                [37.577462, 126.979899],
+                {}
+            ).addTo(map_fff6955d0007407fe41066281b991c01);
+        
+    
+            marker_579d91151abc1d0414a72b23e4417d1f.bindTooltip(
+                `<div>
+                     금호미술관
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_95631aad6a108de16cecfa993f895eaf = L.marker(
+                [37.573155, 126.969761],
+                {}
+            ).addTo(map_fff6955d0007407fe41066281b991c01);
+        
+    
+            marker_95631aad6a108de16cecfa993f895eaf.bindTooltip(
+                `<div>
+                     성곡미술관
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_62891f2d34b776cc023ebf058c957c11 = L.marker(
+                [37.516913, 127.11822],
+                {}
+            ).addTo(map_fff6955d0007407fe41066281b991c01);
+        
+    
+            marker_62891f2d34b776cc023ebf058c957c11.bindTooltip(
+                `<div>
+                     소마미술관
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_e2ab55d0910a07b3ed807619aa27dc09 = L.marker(
+                [37.577739, 126.988343],
+                {}
+            ).addTo(map_fff6955d0007407fe41066281b991c01);
+        
+    
+            marker_e2ab55d0910a07b3ed807619aa27dc09.bindTooltip(
+                `<div>
+                     아라리오뮤지엄 인 스페이스
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_61a79872416e57921128f7b0a2fbf021 = L.marker(
+                [37.259943, 127.110334],
+                {}
+            ).addTo(map_fff6955d0007407fe41066281b991c01);
+        
+    
+            marker_61a79872416e57921128f7b0a2fbf021.bindTooltip(
+                `<div>
+                     아모레퍼시픽미술관
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_2eeb73a515f1bdcb99c5cc1cea562a98 = L.marker(
+                [37.579489, 126.981955],
+                {}
+            ).addTo(map_fff6955d0007407fe41066281b991c01);
+        
+    
+            marker_2eeb73a515f1bdcb99c5cc1cea562a98.bindTooltip(
+                `<div>
+                     아트선재센터
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_ef46fdf8437401ec196463ef98278777 = L.marker(
+                [37.611903, 126.975621],
+                {}
+            ).addTo(map_fff6955d0007407fe41066281b991c01);
+        
+    
+            marker_ef46fdf8437401ec196463ef98278777.bindTooltip(
+                `<div>
+                     토탈미술관
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_5b5faa572ac1b8954895c1d322017ad5 = L.marker(
+                [37.593194, 126.998205],
+                {}
+            ).addTo(map_fff6955d0007407fe41066281b991c01);
+        
+    
+            marker_5b5faa572ac1b8954895c1d322017ad5.bindTooltip(
+                `<div>
+                     성북선잠박물관
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_a1db27d84fefd0233ac4e9e967462d53 = L.marker(
+                [37.56058, 127.130866],
+                {}
+            ).addTo(map_fff6955d0007407fe41066281b991c01);
+        
+    
+            marker_a1db27d84fefd0233ac4e9e967462d53.bindTooltip(
+                `<div>
+                     암사동선사유적박물관
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_3eedc75c26b46a5c332f009505c0e558 = L.marker(
+                [37.49918, 127.104525],
+                {}
+            ).addTo(map_fff6955d0007407fe41066281b991c01);
+        
+    
+            marker_3eedc75c26b46a5c332f009505c0e558.bindTooltip(
+                `<div>
+                     송파책박물관
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_e83a7528096a2936e6b60ce3b117cdab = L.marker(
+                [37.560752, 126.969038],
+                {}
+            ).addTo(map_fff6955d0007407fe41066281b991c01);
+        
+    
+            marker_e83a7528096a2936e6b60ce3b117cdab.bindTooltip(
+                `<div>
+                     서소문성지역사박물관
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_96979892274a679f9d2a698a0c47c8a1 = L.marker(
+                [37.577118, 126.989776],
+                {}
+            ).addTo(map_fff6955d0007407fe41066281b991c01);
+        
+    
+            marker_96979892274a679f9d2a698a0c47c8a1.bindTooltip(
+                `<div>
+                     서울우리소리박물관
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_0079326d7870bcbcdce90ec8f35c81bd = L.marker(
+                [37.61968, 127.076707],
+                {}
+            ).addTo(map_fff6955d0007407fe41066281b991c01);
+        
+    
+            marker_0079326d7870bcbcdce90ec8f35c81bd.bindTooltip(
+                `<div>
+                     서울생활사박물관
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_b5498be3d1802d4894177aa666a91f06 = L.marker(
+                [37.576746, 126.983358],
+                {}
+            ).addTo(map_fff6955d0007407fe41066281b991c01);
+        
+    
+            marker_b5498be3d1802d4894177aa666a91f06.bindTooltip(
+                `<div>
+                     서울공예박물관
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_59953e7fc52e3a8aa4b5b1af3fae3dbc = L.marker(
+                [37.525141, 126.965714],
+                {}
+            ).addTo(map_fff6955d0007407fe41066281b991c01);
+        
+    
+            marker_59953e7fc52e3a8aa4b5b1af3fae3dbc.bindTooltip(
+                `<div>
+                     용산역사박물관
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_18329307f9ad6b2e59fd10e86e2fb8f5 = L.marker(
+                [37.480255, 126.895449],
+                {}
+            ).addTo(map_fff6955d0007407fe41066281b991c01);
+        
+    
+            marker_18329307f9ad6b2e59fd10e86e2fb8f5.bindTooltip(
+                `<div>
+                     G밸리산업박물관
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_f5c71d97e05dc9cd94021ae1d6c0747f = L.marker(
+                [37.553572, 126.850734],
+                {}
+            ).addTo(map_fff6955d0007407fe41066281b991c01);
+        
+    
+            marker_f5c71d97e05dc9cd94021ae1d6c0747f.bindTooltip(
+                `<div>
+                     기생충박물관
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_6cc3066011de5ff53f5b7a636cec1028 = L.marker(
+                [37.469548, 127.036505],
+                {}
+            ).addTo(map_fff6955d0007407fe41066281b991c01);
+        
+    
+            marker_6cc3066011de5ff53f5b7a636cec1028.bindTooltip(
+                `<div>
+                     매헌윤봉길의사기념관
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_facb1a3d66cb153d5865f59c39397439 = L.marker(
+                [37.606813, 127.042381],
+                {}
+            ).addTo(map_fff6955d0007407fe41066281b991c01);
+        
+    
+            marker_facb1a3d66cb153d5865f59c39397439.bindTooltip(
+                `<div>
+                     동덕여자대학교 박물관
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_dfb77479aa4a3d58a4364860c4d55e35 = L.marker(
+                [37.65243153, 127.0276397],
+                {}
+            ).addTo(map_fff6955d0007407fe41066281b991c01);
+        
+    
+            marker_dfb77479aa4a3d58a4364860c4d55e35.bindTooltip(
+                `<div>
+                     둘리뮤지엄
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_b740ed87bf99b3ac9a6e6fca61e47c9e = L.marker(
+                [37.57675252, 126.9378582],
+                {}
+            ).addTo(map_fff6955d0007407fe41066281b991c01);
+        
+    
+            marker_b740ed87bf99b3ac9a6e6fca61e47c9e.bindTooltip(
+                `<div>
+                     서대문자연사박물관
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_73752bbdef70e3183e71ea0ea648e03f = L.marker(
+                [37.57244171, 126.9595412],
+                {}
+            ).addTo(map_fff6955d0007407fe41066281b991c01);
+        
+    
+            marker_73752bbdef70e3183e71ea0ea648e03f.bindTooltip(
+                `<div>
+                     서대문형무소역사관
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_de127fbef58ded949930a6e195d9f5b2 = L.marker(
+                [37.58103147, 126.983694],
+                {}
+            ).addTo(map_fff6955d0007407fe41066281b991c01);
+        
+    
+            marker_de127fbef58ded949930a6e195d9f5b2.bindTooltip(
+                `<div>
+                     서울교육박물관
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_a3898be2ec627e55de1f0dd6b3bc620f = L.marker(
+                [37.54945787, 127.0862609],
+                {}
+            ).addTo(map_fff6955d0007407fe41066281b991c01);
+        
+    
+            marker_a3898be2ec627e55de1f0dd6b3bc620f.bindTooltip(
+                `<div>
+                     서울상상나라
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_c6c007b2c94d7eaa753e4100c224ceef = L.marker(
+                [37.57087947, 126.9688292],
+                {}
+            ).addTo(map_fff6955d0007407fe41066281b991c01);
+        
+    
+            marker_c6c007b2c94d7eaa753e4100c224ceef.bindTooltip(
+                `<div>
+                     서울역사박물관
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_88c543c980e1326658cbd15b9b6ffd4a = L.marker(
+                [37.59322963, 126.9982179],
+                {}
+            ).addTo(map_fff6955d0007407fe41066281b991c01);
+        
+    
+            marker_88c543c980e1326658cbd15b9b6ffd4a.bindTooltip(
+                `<div>
+                     성북선잠박물관
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_4eb8ffd97e9dde175db99333758a2b26 = L.marker(
+                [37.55562546, 126.9638899],
+                {}
+            ).addTo(map_fff6955d0007407fe41066281b991c01);
+        
+    
+            marker_4eb8ffd97e9dde175db99333758a2b26.bindTooltip(
+                `<div>
+                     손기정기념관
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_ed5db674d007055b4bea2d232ad8435d = L.marker(
+                [37.64033477, 126.9380085],
+                {}
+            ).addTo(map_fff6955d0007407fe41066281b991c01);
+        
+    
+            marker_ed5db674d007055b4bea2d232ad8435d.bindTooltip(
+                `<div>
+                     수도박물관
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_9e6726f62da70f4053a0e341efb77e95 = L.marker(
+                [37.58318496, 126.9889549],
+                {}
+            ).addTo(map_fff6955d0007407fe41066281b991c01);
+        
+    
+            marker_9e6726f62da70f4053a0e341efb77e95.bindTooltip(
+                `<div>
+                     은평역사한옥박물관
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_18891bcb24db32ec76a3e977489946fc = L.marker(
+                [37.57126473, 127.0350421],
+                {}
+            ).addTo(map_fff6955d0007407fe41066281b991c01);
+        
+    
+            marker_18891bcb24db32ec76a3e977489946fc.bindTooltip(
+                `<div>
+                     종로구립 고희동 미술자료관
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_fbd47bc01963945b2fb244f44c6ebefc = L.marker(
+                [37.5154282, 127.1208007],
+                {}
+            ).addTo(map_fff6955d0007407fe41066281b991c01);
+        
+    
+            marker_fbd47bc01963945b2fb244f44c6ebefc.bindTooltip(
+                `<div>
+                     청계천박물관
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_a98f5b06326a61f72026449e1d0e28e2 = L.marker(
+                [37.56787164, 126.8510306],
+                {}
+            ).addTo(map_fff6955d0007407fe41066281b991c01);
+        
+    
+            marker_a98f5b06326a61f72026449e1d0e28e2.bindTooltip(
+                `<div>
+                     한성백제박물관
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_0145a87c2f2a6c4d3d25ed74fd0de583 = L.marker(
+                [37.58160503, 126.9852494],
+                {}
+            ).addTo(map_fff6955d0007407fe41066281b991c01);
+        
+    
+            marker_0145a87c2f2a6c4d3d25ed74fd0de583.bindTooltip(
+                `<div>
+                     허준박물관
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_c27c0d92506bf66990ab038bf675e810 = L.marker(
+                [37.48766827, 127.0657421],
+                {}
+            ).addTo(map_fff6955d0007407fe41066281b991c01);
+        
+    
+            marker_c27c0d92506bf66990ab038bf675e810.bindTooltip(
+                `<div>
+                     가회민화박물관
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_0dc509ae28b989ef71f58b1597a649d0 = L.marker(
+                [37.5596784, 126.9632021],
+                {}
+            ).addTo(map_fff6955d0007407fe41066281b991c01);
+        
+    
+            marker_0dc509ae28b989ef71f58b1597a649d0.bindTooltip(
+                `<div>
+                     경기여자고등학교 
+경운박물관
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_eae1502956ec7f0ffb025815faff0e62 = L.marker(
+                [37.47375026, 127.022282],
+                {}
+            ).addTo(map_fff6955d0007407fe41066281b991c01);
+        
+    
+            marker_eae1502956ec7f0ffb025815faff0e62.bindTooltip(
+                `<div>
+                     고촌이종근기념관
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_abf6b3f397e2bbfec755ff7860a73988 = L.marker(
+                [37.55326331, 126.9298387],
+                {}
+            ).addTo(map_fff6955d0007407fe41066281b991c01);
+        
+    
+            marker_abf6b3f397e2bbfec755ff7860a73988.bindTooltip(
+                `<div>
+                     관문사 성보 박물관
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_2ba76bab4c2e6f2ed9e5f33f9391d490 = L.marker(
+                [37.55361879, 126.8507495],
+                {}
+            ).addTo(map_fff6955d0007407fe41066281b991c01);
+        
+    
+            marker_2ba76bab4c2e6f2ed9e5f33f9391d490.bindTooltip(
+                `<div>
+                     근현대디자인박물관
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_498fd102b2bf5c48a928cd4370545742 = L.marker(
+                [37.60035632, 126.9558572],
+                {}
+            ).addTo(map_fff6955d0007407fe41066281b991c01);
+        
+    
+            marker_498fd102b2bf5c48a928cd4370545742.bindTooltip(
+                `<div>
+                     기생충박물관
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_6c7d8679a786e685e38d9268f180ff82 = L.marker(
+                [37.5664602, 126.9677352],
+                {}
+            ).addTo(map_fff6955d0007407fe41066281b991c01);
+        
+    
+            marker_6c7d8679a786e685e38d9268f180ff82.bindTooltip(
+                `<div>
+                     꼭두박물관
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_3fb515dc38087e02cf59fa5d706dc5f5 = L.marker(
+                [37.61877901, 126.9325193],
+                {}
+            ).addTo(map_fff6955d0007407fe41066281b991c01);
+        
+    
+            marker_3fb515dc38087e02cf59fa5d706dc5f5.bindTooltip(
+                `<div>
+                     농협 농업박물관
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_5972aa59998df3ed45493c7c2f9b2a2d = L.marker(
+                [37.52395048, 127.0356033],
+                {}
+            ).addTo(map_fff6955d0007407fe41066281b991c01);
+        
+    
+            marker_5972aa59998df3ed45493c7c2f9b2a2d.bindTooltip(
+                `<div>
+                     세계다문화박물관
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_ea1932e99c52e637b7db766376728ff9 = L.marker(
+                [37.57490095, 126.9906387],
+                {}
+            ).addTo(map_fff6955d0007407fe41066281b991c01);
+        
+    
+            marker_ea1932e99c52e637b7db766376728ff9.bindTooltip(
+                `<div>
+                     도산안창호기념관
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_596362ad378e6c23468d277ec84dc93c = L.marker(
+                [37.51375212, 127.1044469],
+                {}
+            ).addTo(map_fff6955d0007407fe41066281b991c01);
+        
+    
+            marker_596362ad378e6c23468d277ec84dc93c.bindTooltip(
+                `<div>
+                     떡박물관
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_749c70979d0e6c99b8dbf956531327f8 = L.marker(
+                [37.51070945, 127.0999377],
+                {}
+            ).addTo(map_fff6955d0007407fe41066281b991c01);
+        
+    
+            marker_749c70979d0e6c99b8dbf956531327f8.bindTooltip(
+                `<div>
+                     롯데월드 아쿠아리움
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_a39973a806360cdeccff57a6cf0bbb7b = L.marker(
+                [37.58016368, 126.985185],
+                {}
+            ).addTo(map_fff6955d0007407fe41066281b991c01);
+        
+    
+            marker_a39973a806360cdeccff57a6cf0bbb7b.bindTooltip(
+                `<div>
+                     롯데월드 민속박물관
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_e806d4a2d657bc1017f469c6bd095f23 = L.marker(
+                [37.57355543, 126.984866],
+                {}
+            ).addTo(map_fff6955d0007407fe41066281b991c01);
+        
+    
+            marker_e806d4a2d657bc1017f469c6bd095f23.bindTooltip(
+                `<div>
+                     목인박물관
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_a20544fded522bed340bfa392f6e96eb = L.marker(
+                [37.6538158, 127.0084889],
+                {}
+            ).addTo(map_fff6955d0007407fe41066281b991c01);
+        
+    
+            marker_a20544fded522bed340bfa392f6e96eb.bindTooltip(
+                `<div>
+                     뮤지엄김치간
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_d3be2b9f25b982775b655567cb62c5b8 = L.marker(
+                [37.56401227, 126.9725854],
+                {}
+            ).addTo(map_fff6955d0007407fe41066281b991c01);
+        
+    
+            marker_d3be2b9f25b982775b655567cb62c5b8.bindTooltip(
+                `<div>
+                     박을복자수박물관
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_ac442d91f9ae326fb804f4a7a03d9fc1 = L.marker(
+                [37.54427779, 126.9592536],
+                {}
+            ).addTo(map_fff6955d0007407fe41066281b991c01);
+        
+    
+            marker_ac442d91f9ae326fb804f4a7a03d9fc1.bindTooltip(
+                `<div>
+                     배재학당역사박물관
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_65ff6dbd6939cd167cbbf5fce7095252 = L.marker(
+                [37.57327196, 126.9867814],
+                {}
+            ).addTo(map_fff6955d0007407fe41066281b991c01);
+        
+    
+            marker_65ff6dbd6939cd167cbbf5fce7095252.bindTooltip(
+                `<div>
+                     백범김구기념관
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_426a0b9050fbdaa9480aee902e275441 = L.marker(
+                [37.58043, 126.9847656],
+                {}
+            ).addTo(map_fff6955d0007407fe41066281b991c01);
+        
+    
+            marker_426a0b9050fbdaa9480aee902e275441.bindTooltip(
+                `<div>
+                     북촌동양문화박물관
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_bcf28fcf0142243cd0f12fc6c4d15e8f = L.marker(
+                [37.584493, 126.9829955],
+                {}
+            ).addTo(map_fff6955d0007407fe41066281b991c01);
+        
+    
+            marker_bcf28fcf0142243cd0f12fc6c4d15e8f.bindTooltip(
+                `<div>
+                     북촌박물관
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_eb61151f19f9e9e581a64684f2d22633 = L.marker(
+                [37.57389389, 126.9818818],
+                {}
+            ).addTo(map_fff6955d0007407fe41066281b991c01);
+        
+    
+            marker_eb61151f19f9e9e581a64684f2d22633.bindTooltip(
+                `<div>
+                     북촌생활사박물관
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_6a0a2778cf93fbe6065b473f7272c3e5 = L.marker(
+                [37.56539367, 127.1477157],
+                {}
+            ).addTo(map_fff6955d0007407fe41066281b991c01);
+        
+    
+            marker_6a0a2778cf93fbe6065b473f7272c3e5.bindTooltip(
+                `<div>
+                     불교중앙박물관
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_fc3c869d7525c4c66365d2571e203419 = L.marker(
+                [37.6087015, 126.9570781],
+                {}
+            ).addTo(map_fff6955d0007407fe41066281b991c01);
+        
+    
+            marker_fc3c869d7525c4c66365d2571e203419.bindTooltip(
+                `<div>
+                     브이센터 더 라이브 뮤지엄
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_8a8f23eab63637d362d80769ec09d634 = L.marker(
+                [37.56222376, 126.9878243],
+                {}
+            ).addTo(map_fff6955d0007407fe41066281b991c01);
+        
+    
+            marker_8a8f23eab63637d362d80769ec09d634.bindTooltip(
+                `<div>
+                     삼성출판박물관
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_ef37fab155f1cfc39cb9d321feafcd4c = L.marker(
+                [37.56627097, 126.9803939],
+                {}
+            ).addTo(map_fff6955d0007407fe41066281b991c01);
+        
+    
+            marker_ef37fab155f1cfc39cb9d321feafcd4c.bindTooltip(
+                `<div>
+                     샬트르성바오로수녀회 역사박물관
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_1ab272bb70ab615f0d8848dc1075790c = L.marker(
+                [37.57880969, 126.9970208],
+                {}
+            ).addTo(map_fff6955d0007407fe41066281b991c01);
+        
+    
+            marker_1ab272bb70ab615f0d8848dc1075790c.bindTooltip(
+                `<div>
+                     서울그레뱅뮤지엄
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_386ef9c9bbc10f4e94ecc74e6a4b5d4d = L.marker(
+                [37.51889593, 127.115509],
+                {}
+            ).addTo(map_fff6955d0007407fe41066281b991c01);
+        
+    
+            marker_386ef9c9bbc10f4e94ecc74e6a4b5d4d.bindTooltip(
+                `<div>
+                     서울대학교병원 의학박물관
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_f4492e375d32ee479f9139d61da914c4 = L.marker(
+                [37.5081228, 127.0618874],
+                {}
+            ).addTo(map_fff6955d0007407fe41066281b991c01);
+        
+    
+            marker_f4492e375d32ee479f9139d61da914c4.bindTooltip(
+                `<div>
+                     서울올림픽기념관
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_84eecd5f031ba183f649f1acd00f21b8 = L.marker(
+                [37.58096684, 126.9818002],
+                {}
+            ).addTo(map_fff6955d0007407fe41066281b991c01);
+        
+    
+            marker_84eecd5f031ba183f649f1acd00f21b8.bindTooltip(
+                `<div>
+                     세계골프역사박물관
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_65f3c319bfb9c92fb3cbbfe630e05ae7 = L.marker(
+                [37.57981529, 127.0046233],
+                {}
+            ).addTo(map_fff6955d0007407fe41066281b991c01);
+        
+    
+            marker_65f3c319bfb9c92fb3cbbfe630e05ae7.bindTooltip(
+                `<div>
+                     세계장신구박물관
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_f44beca2d5f1993ae00233b46c184c3d = L.marker(
+                [37.59950589, 126.9556793],
+                {}
+            ).addTo(map_fff6955d0007407fe41066281b991c01);
+        
+    
+            marker_f44beca2d5f1993ae00233b46c184c3d.bindTooltip(
+                `<div>
+                     쇳대박물관
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_72d144fd848386769bcb716fa558524a = L.marker(
+                [37.56986879, 126.9776582],
+                {}
+            ).addTo(map_fff6955d0007407fe41066281b991c01);
+        
+    
+            marker_72d144fd848386769bcb716fa558524a.bindTooltip(
+                `<div>
+                     쉼박물관
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_2ddaa8f81788c7193dbd1ae88e118e09 = L.marker(
+                [37.51966412, 126.9399092],
+                {}
+            ).addTo(map_fff6955d0007407fe41066281b991c01);
+        
+    
+            marker_2ddaa8f81788c7193dbd1ae88e118e09.bindTooltip(
+                `<div>
+                     신문박물관 PRESSEUM
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_fee0fbc6d284f95cfe286e9f728b1f1b = L.marker(
+                [37.61189018, 126.9717567],
+                {}
+            ).addTo(map_fff6955d0007407fe41066281b991c01);
+        
+    
+            marker_fee0fbc6d284f95cfe286e9f728b1f1b.bindTooltip(
+                `<div>
+                     안중근의사기념관
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_5eae282c73280950ec353f51d67ed0fa = L.marker(
+                [126.9817505, 37.55943913],
+                {}
+            ).addTo(map_fff6955d0007407fe41066281b991c01);
+        
+    
+            marker_5eae282c73280950ec353f51d67ed0fa.bindTooltip(
+                `<div>
+                     우리옛돌박물관
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_bff07f69bcf2f7798195cb68efca8073 = L.marker(
+                [37.59371971, 126.9626575],
+                {}
+            ).addTo(map_fff6955d0007407fe41066281b991c01);
+        
+    
+            marker_bff07f69bcf2f7798195cb68efca8073.bindTooltip(
+                `<div>
+                     우석뮤지엄
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_bd3bcc482e0643661285228cca8ae908 = L.marker(
+                [37.55496014, 126.9338173],
+                {}
+            ).addTo(map_fff6955d0007407fe41066281b991c01);
+        
+    
+            marker_bd3bcc482e0643661285228cca8ae908.bindTooltip(
+                `<div>
+                     유금와당박물관
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_5e0f98959df56024b83635b3ec7a530d = L.marker(
+                [37.56623131, 126.970695],
+                {}
+            ).addTo(map_fff6955d0007407fe41066281b991c01);
+        
+    
+            marker_5e0f98959df56024b83635b3ec7a530d.bindTooltip(
+                `<div>
+                     이한열기념관
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_f135d4ac32036e3be033ade73ccb000d = L.marker(
+                [37.485889, 127.028535],
+                {}
+            ).addTo(map_fff6955d0007407fe41066281b991c01);
+        
+    
+            marker_f135d4ac32036e3be033ade73ccb000d.bindTooltip(
+                `<div>
+                     전기박물관
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_d043f4f447b53974b75eb0d9901f39e7 = L.marker(
+                [37.560103, 126.914879],
+                {}
+            ).addTo(map_fff6955d0007407fe41066281b991c01);
+        
+    
+            marker_d043f4f447b53974b75eb0d9901f39e7.bindTooltip(
+                `<div>
+                     전쟁과여성인권박물관
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_7fa3a9d83154c39b44a82082075326b7 = L.marker(
+                [37.559634, 127.00616],
+                {}
+            ).addTo(map_fff6955d0007407fe41066281b991c01);
+        
+    
+            marker_7fa3a9d83154c39b44a82082075326b7.bindTooltip(
+                `<div>
+                     종이나라박물관
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_b15b893e621d601c6493a880b1fd9054 = L.marker(
+                [37.584851, 126.999954],
+                {}
+            ).addTo(map_fff6955d0007407fe41066281b991c01);
+        
+    
+            marker_b15b893e621d601c6493a880b1fd9054.bindTooltip(
+                `<div>
+                     짚풀생활사박물관
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_0c1f6725bedb90168ec6427be8477796 = L.marker(
+                [37.558158, 126.984233],
+                {}
+            ).addTo(map_fff6955d0007407fe41066281b991c01);
+        
+    
+            marker_0c1f6725bedb90168ec6427be8477796.bindTooltip(
+                `<div>
+                     초전섬유퀼트박물관
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_f3761cca619aa96fe53225f7ff09258b = L.marker(
+                [37.571517, 126.990288],
+                {}
+            ).addTo(map_fff6955d0007407fe41066281b991c01);
+        
+    
+            marker_f3761cca619aa96fe53225f7ff09258b.bindTooltip(
+                `<div>
+                     춘원당한방박물관
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_2d323ac5c2515354a2a024a25a2350a8 = L.marker(
+                [37.479002, 127.102944],
+                {}
+            ).addTo(map_fff6955d0007407fe41066281b991c01);
+        
+    
+            marker_2d323ac5c2515354a2a024a25a2350a8.bindTooltip(
+                `<div>
+                     탄허기념박물관
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_87d7b2a3b345e374a931d0511ef8a812 = L.marker(
+                [37.491971, 126.844051],
+                {}
+            ).addTo(map_fff6955d0007407fe41066281b991c01);
+        
+    
+            marker_87d7b2a3b345e374a931d0511ef8a812.bindTooltip(
+                `<div>
+                     평강성서유물박물관
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_1bf7a720bdac4ebc9e35dc0c96441d62 = L.marker(
+                [37.600014, 126.99312],
+                {}
+            ).addTo(map_fff6955d0007407fe41066281b991c01);
+        
+    
+            marker_1bf7a720bdac4ebc9e35dc0c96441d62.bindTooltip(
+                `<div>
+                     한국가구박물관
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_933fc7b3aeb4e67830d855d77ea09356 = L.marker(
+                [37.51583, 127.099222],
+                {}
+            ).addTo(map_fff6955d0007407fe41066281b991c01);
+        
+    
+            marker_933fc7b3aeb4e67830d855d77ea09356.bindTooltip(
+                `<div>
+                     한국광고박물관
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_5ff2ffe8b0b2062873198737db867761 = L.marker(
+                [37.56846, 126.976273],
+                {}
+            ).addTo(map_fff6955d0007407fe41066281b991c01);
+        
+    
+            marker_5ff2ffe8b0b2062873198737db867761.bindTooltip(
+                `<div>
+                     한국금융사박물관
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_9a71fde484b2e4555e3247f239047207 = L.marker(
+                [37.562075, 126.980538],
+                {}
+            ).addTo(map_fff6955d0007407fe41066281b991c01);
+        
+    
+            marker_9a71fde484b2e4555e3247f239047207.bindTooltip(
+                `<div>
+                     한국은행 화폐박물관
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_086fdd2890eed77bfd830a4bcfa7f542 = L.marker(
+                [37.519773, 126.930237],
+                {}
+            ).addTo(map_fff6955d0007407fe41066281b991c01);
+        
+    
+            marker_086fdd2890eed77bfd830a4bcfa7f542.bindTooltip(
+                `<div>
+                     한국잡지박물관
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_ddbd149d668c7a2efa8929a627dc33f4 = L.marker(
+                [37.575461, 127.005507],
+                {}
+            ).addTo(map_fff6955d0007407fe41066281b991c01);
+        
+    
+            marker_ddbd149d668c7a2efa8929a627dc33f4.bindTooltip(
+                `<div>
+                     한국현대의상박물관
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_2c401f6db3f92e44b7563c9b7c945d1d = L.marker(
+                [37.587793, 126.998591],
+                {}
+            ).addTo(map_fff6955d0007407fe41066281b991c01);
+        
+    
+            marker_2c401f6db3f92e44b7563c9b7c945d1d.bindTooltip(
+                `<div>
+                     한무숙 문학관
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_10ac74ec167ec8702ce6082baf050b8a = L.marker(
+                [37.592904, 127.000314],
+                {}
+            ).addTo(map_fff6955d0007407fe41066281b991c01);
+        
+    
+            marker_10ac74ec167ec8702ce6082baf050b8a.bindTooltip(
+                `<div>
+                     혜곡최순우기념관
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_f398cd475a1d76dea6c6030e933fa493 = L.marker(
+                [37.604654, 126.965901],
+                {}
+            ).addTo(map_fff6955d0007407fe41066281b991c01);
+        
+    
+            marker_f398cd475a1d76dea6c6030e933fa493.bindTooltip(
+                `<div>
+                     화정박물관
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_4aaba3427a9a115923fb7cb40237ac33 = L.marker(
+                [37.542383, 127.075614],
+                {}
+            ).addTo(map_fff6955d0007407fe41066281b991c01);
+        
+    
+            marker_4aaba3427a9a115923fb7cb40237ac33.bindTooltip(
+                `<div>
+                     건국대학교박물관
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_11f12ddd4339416da2a85871ed0654bd = L.marker(
+                [37.59771, 127.055198],
+                {}
+            ).addTo(map_fff6955d0007407fe41066281b991c01);
+        
+    
+            marker_11f12ddd4339416da2a85871ed0654bd.bindTooltip(
+                `<div>
+                     경희대학교 자연사박물관
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_aaf88b1f25c483a9dd6382a349e991b5 = L.marker(
+                [37.597043, 127.053142],
+                {}
+            ).addTo(map_fff6955d0007407fe41066281b991c01);
+        
+    
+            marker_aaf88b1f25c483a9dd6382a349e991b5.bindTooltip(
+                `<div>
+                     경희대학교 중앙박물관
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_fc4045b444e11ec7d70175e47c4974d7 = L.marker(
+                [37.589433, 127.034532],
+                {}
+            ).addTo(map_fff6955d0007407fe41066281b991c01);
+        
+    
+            marker_fc4045b444e11ec7d70175e47c4974d7.bindTooltip(
+                `<div>
+                     고려대학교박물관
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_e6acd78882105d8b2a0954fb4011f3c8 = L.marker(
+                [37.612707, 126.993619],
+                {}
+            ).addTo(map_fff6955d0007407fe41066281b991c01);
+        
+    
+            marker_e6acd78882105d8b2a0954fb4011f3c8.bindTooltip(
+                `<div>
+                     국민대학교박물관
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_5a070d578af59e54a86121e2a1ab4069 = L.marker(
+                [37.652736, 127.016541],
+                {}
+            ).addTo(map_fff6955d0007407fe41066281b991c01);
+        
+    
+            marker_5a070d578af59e54a86121e2a1ab4069.bindTooltip(
+                `<div>
+                     덕성여자대학교박물관
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_42c96bb441f229779396fe52262e2819 = L.marker(
+                [37.642261, 127.107832],
+                {}
+            ).addTo(map_fff6955d0007407fe41066281b991c01);
+        
+    
+            marker_42c96bb441f229779396fe52262e2819.bindTooltip(
+                `<div>
+                     삼육대학교박물관
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_687980cfa8895cef49a180099f694ec1 = L.marker(
+                [37.610541, 126.975955],
+                {}
+            ).addTo(map_fff6955d0007407fe41066281b991c01);
+        
+    
+            marker_687980cfa8895cef49a180099f694ec1.bindTooltip(
+                `<div>
+                     상명대학교 박물관
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_eb2a442fa91151d705192b04888b430a = L.marker(
+                [37.46453, 126.952209],
+                {}
+            ).addTo(map_fff6955d0007407fe41066281b991c01);
+        
+    
+            marker_eb2a442fa91151d705192b04888b430a.bindTooltip(
+                `<div>
+                     서울대학교박물관
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_70d8dd4ceac8bef141328a01ad3af325 = L.marker(
+                [37.583155, 127.056948],
+                {}
+            ).addTo(map_fff6955d0007407fe41066281b991c01);
+        
+    
+            marker_70d8dd4ceac8bef141328a01ad3af325.bindTooltip(
+                `<div>
+                     서울시립대학교 박물관
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_22c68ee1c7c39828a54bf50bd7b9b9a9 = L.marker(
+                [37.587447, 126.994751],
+                {}
+            ).addTo(map_fff6955d0007407fe41066281b991c01);
+        
+    
+            marker_22c68ee1c7c39828a54bf50bd7b9b9a9.bindTooltip(
+                `<div>
+                     성균관대학교 박물관
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_0bcab738da95e517f5f992a7788c1a92 = L.marker(
+                [37.591711, 127.021257],
+                {}
+            ).addTo(map_fff6955d0007407fe41066281b991c01);
+        
+    
+            marker_0bcab738da95e517f5f992a7788c1a92.bindTooltip(
+                `<div>
+                     성신여자대학교 박물관
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_2927eff78e4a444b7237d02db78bec83 = L.marker(
+                [37.55152, 127.075253],
+                {}
+            ).addTo(map_fff6955d0007407fe41066281b991c01);
+        
+    
+            marker_2927eff78e4a444b7237d02db78bec83.bindTooltip(
+                `<div>
+                     세종대학교박물관
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_4a72e3a8c839499be195e9421b93cf02 = L.marker(
+                [37.544679, 126.96411],
+                {}
+            ).addTo(map_fff6955d0007407fe41066281b991c01);
+        
+    
+            marker_4a72e3a8c839499be195e9421b93cf02.bindTooltip(
+                `<div>
+                     숙명여자대학교박물관
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_1a83a493c42bb4ad282d7f0d7e7ef2dc = L.marker(
+                [37.495555, 126.95707],
+                {}
+            ).addTo(map_fff6955d0007407fe41066281b991c01);
+        
+    
+            marker_1a83a493c42bb4ad282d7f0d7e7ef2dc.bindTooltip(
+                `<div>
+                     숭실대학교 한국기독교박물관
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_37950af47fd1a47150a408aae9a1dffd = L.marker(
+                [37.561825, 126.937904],
+                {}
+            ).addTo(map_fff6955d0007407fe41066281b991c01);
+        
+    
+            marker_37950af47fd1a47150a408aae9a1dffd.bindTooltip(
+                `<div>
+                     연세대학교박물관
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_00b86281dc334312843fd602fa15f72f = L.marker(
+                [37.560298, 126.944735],
+                {}
+            ).addTo(map_fff6955d0007407fe41066281b991c01);
+        
+    
+            marker_00b86281dc334312843fd602fa15f72f.bindTooltip(
+                `<div>
+                     이화여대박물관
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_1bc691b0907950e125a82e941a98cde8 = L.marker(
+                [37.560603, 126.948208],
+                {}
+            ).addTo(map_fff6955d0007407fe41066281b991c01);
+        
+    
+            marker_1bc691b0907950e125a82e941a98cde8.bindTooltip(
+                `<div>
+                     이화여자대학교 자연사박물관
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_ff278ab66bd9b94140e61ac0ce94404e = L.marker(
+                [37.555271, 127.044727],
+                {}
+            ).addTo(map_fff6955d0007407fe41066281b991c01);
+        
+    
+            marker_ff278ab66bd9b94140e61ac0ce94404e.bindTooltip(
+                `<div>
+                     한양대학교박물관
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_740ae10bce244ff3467abecfd9f81e33 = L.marker(
+                [37.550714, 126.926043],
+                {}
+            ).addTo(map_fff6955d0007407fe41066281b991c01);
+        
+    
+            marker_740ae10bce244ff3467abecfd9f81e33.bindTooltip(
+                `<div>
+                     홍익대학교  박물관
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_b7690f162a67a1b47555ce483fe8e9f7 = L.marker(
+                [37.606597, 127.042782],
+                {}
+            ).addTo(map_fff6955d0007407fe41066281b991c01);
+        
+    
+            marker_b7690f162a67a1b47555ce483fe8e9f7.bindTooltip(
+                `<div>
+                     동덕여자대학교박물관
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_39d456bdef20a7b31e36d864e728ef94 = L.marker(
+                [37.57224, 126.838467],
+                {}
+            ).addTo(map_fff6955d0007407fe41066281b991c01);
+        
+    
+            marker_39d456bdef20a7b31e36d864e728ef94.bindTooltip(
+                `<div>
+                     겸재정선미술관
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_ff6ed7a941e370f8ecfcf620331c8314 = L.marker(
+                [37.46642, 126.949626],
+                {}
+            ).addTo(map_fff6955d0007407fe41066281b991c01);
+        
+    
+            marker_ff6ed7a941e370f8ecfcf620331c8314.bindTooltip(
+                `<div>
+                     서울특별시대학교 미술관
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_ce3846a296f6b96d15a02d4ab45d54ac = L.marker(
+                [37.573184, 126.982093],
+                {}
+            ).addTo(map_fff6955d0007407fe41066281b991c01);
+        
+    
+            marker_ce3846a296f6b96d15a02d4ab45d54ac.bindTooltip(
+                `<div>
+                     OCI미술관
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_ef31edf423aa981d2d7e838215482435 = L.marker(
+                [37.577462, 126.979899],
+                {}
+            ).addTo(map_fff6955d0007407fe41066281b991c01);
+        
+    
+            marker_ef31edf423aa981d2d7e838215482435.bindTooltip(
+                `<div>
+                     금호미술관
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_6bd42b783baf5ec0dc8ad74211298127 = L.marker(
+                [37.573155, 126.969761],
+                {}
+            ).addTo(map_fff6955d0007407fe41066281b991c01);
+        
+    
+            marker_6bd42b783baf5ec0dc8ad74211298127.bindTooltip(
+                `<div>
+                     성곡미술관
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_d7efc36624469d22d126a49f70f24e73 = L.marker(
+                [37.516913, 127.11822],
+                {}
+            ).addTo(map_fff6955d0007407fe41066281b991c01);
+        
+    
+            marker_d7efc36624469d22d126a49f70f24e73.bindTooltip(
+                `<div>
+                     소마미술관
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_8f1ef4ecc6e6064dea6d4c121ce88f11 = L.marker(
+                [37.577739, 126.988343],
+                {}
+            ).addTo(map_fff6955d0007407fe41066281b991c01);
+        
+    
+            marker_8f1ef4ecc6e6064dea6d4c121ce88f11.bindTooltip(
+                `<div>
+                     아라리오뮤지엄 인 스페이스
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_9e46ee1863412dd399c05fd578c54935 = L.marker(
+                [37.259943, 127.110334],
+                {}
+            ).addTo(map_fff6955d0007407fe41066281b991c01);
+        
+    
+            marker_9e46ee1863412dd399c05fd578c54935.bindTooltip(
+                `<div>
+                     아모레퍼시픽미술관
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_f41259d9903ac2ca789bc7b627bac875 = L.marker(
+                [37.579489, 126.981955],
+                {}
+            ).addTo(map_fff6955d0007407fe41066281b991c01);
+        
+    
+            marker_f41259d9903ac2ca789bc7b627bac875.bindTooltip(
+                `<div>
+                     아트선재센터
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_c9a80a59b2d96e02cf10352d261c3368 = L.marker(
+                [37.611903, 126.975621],
+                {}
+            ).addTo(map_fff6955d0007407fe41066281b991c01);
+        
+    
+            marker_c9a80a59b2d96e02cf10352d261c3368.bindTooltip(
+                `<div>
+                     토탈미술관
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_c97aed101eb54104ddfbdb357eb42801 = L.marker(
+                [37.593194, 126.998205],
+                {}
+            ).addTo(map_fff6955d0007407fe41066281b991c01);
+        
+    
+            marker_c97aed101eb54104ddfbdb357eb42801.bindTooltip(
+                `<div>
+                     성북선잠박물관
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_99487eae533cf386398c4946b3469a97 = L.marker(
+                [37.56058, 127.130866],
+                {}
+            ).addTo(map_fff6955d0007407fe41066281b991c01);
+        
+    
+            marker_99487eae533cf386398c4946b3469a97.bindTooltip(
+                `<div>
+                     암사동선사유적박물관
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_07a1c1f2a778a44b0e87cf1a583d3704 = L.marker(
+                [37.49918, 127.104525],
+                {}
+            ).addTo(map_fff6955d0007407fe41066281b991c01);
+        
+    
+            marker_07a1c1f2a778a44b0e87cf1a583d3704.bindTooltip(
+                `<div>
+                     송파책박물관
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_2534006167de8857131ee2e464bdfca5 = L.marker(
+                [37.560752, 126.969038],
+                {}
+            ).addTo(map_fff6955d0007407fe41066281b991c01);
+        
+    
+            marker_2534006167de8857131ee2e464bdfca5.bindTooltip(
+                `<div>
+                     서소문성지역사박물관
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_ed909856bd2ea20ac9b98ed4f6b2908f = L.marker(
+                [37.577118, 126.989776],
+                {}
+            ).addTo(map_fff6955d0007407fe41066281b991c01);
+        
+    
+            marker_ed909856bd2ea20ac9b98ed4f6b2908f.bindTooltip(
+                `<div>
+                     서울우리소리박물관
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_351c08e6a264cd0981c9531a8e1cdd96 = L.marker(
+                [37.61968, 127.076707],
+                {}
+            ).addTo(map_fff6955d0007407fe41066281b991c01);
+        
+    
+            marker_351c08e6a264cd0981c9531a8e1cdd96.bindTooltip(
+                `<div>
+                     서울생활사박물관
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_093c0a6b06fd145a55e594baf1b5add7 = L.marker(
+                [37.576746, 126.983358],
+                {}
+            ).addTo(map_fff6955d0007407fe41066281b991c01);
+        
+    
+            marker_093c0a6b06fd145a55e594baf1b5add7.bindTooltip(
+                `<div>
+                     서울공예박물관
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_77ed041e3c0be3feb5eddc6ff981a8a4 = L.marker(
+                [37.525141, 126.965714],
+                {}
+            ).addTo(map_fff6955d0007407fe41066281b991c01);
+        
+    
+            marker_77ed041e3c0be3feb5eddc6ff981a8a4.bindTooltip(
+                `<div>
+                     용산역사박물관
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_accc2259d19b5a9d88b21650d2de8c32 = L.marker(
+                [37.480255, 126.895449],
+                {}
+            ).addTo(map_fff6955d0007407fe41066281b991c01);
+        
+    
+            marker_accc2259d19b5a9d88b21650d2de8c32.bindTooltip(
+                `<div>
+                     G밸리산업박물관
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_9cda07fcd70538fc2be880252f080de9 = L.marker(
+                [37.553572, 126.850734],
+                {}
+            ).addTo(map_fff6955d0007407fe41066281b991c01);
+        
+    
+            marker_9cda07fcd70538fc2be880252f080de9.bindTooltip(
+                `<div>
+                     기생충박물관
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_f8f4a9473002214d893126a6d48d6de1 = L.marker(
+                [37.469548, 127.036505],
+                {}
+            ).addTo(map_fff6955d0007407fe41066281b991c01);
+        
+    
+            marker_f8f4a9473002214d893126a6d48d6de1.bindTooltip(
+                `<div>
+                     매헌윤봉길의사기념관
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_340287a4dbceb17c56b5f11511e4d2eb = L.marker(
+                [37.606813, 127.042381],
+                {}
+            ).addTo(map_fff6955d0007407fe41066281b991c01);
+        
+    
+            marker_340287a4dbceb17c56b5f11511e4d2eb.bindTooltip(
+                `<div>
+                     동덕여자대학교 박물관
+                 </div>`,
+                {"sticky": true}
+            );
+        
+</script>
+</html>
