@@ -1,5 +1,5 @@
 ### 📍 데이터셋 링크 : https://data.seoul.go.kr/dataList/OA-15272/F/1/datasetView.do
-- 데이터셋 다운 ➖ [다운로드](./pandas_folium/%EC%84%9C%EC%9A%B8%ED%8A%B9%EB%B3%84%EC%8B%9C_%EB%B0%95%EB%AC%BC%EA%B4%80%EB%AF%B8%EC%88%A0%EA%B4%80%EC%A0%95%EB%B3%B4_20230323.csv)
+- 데이터셋 다운 ➖ [다운로드](https://github.com/Jungddaseul/chatGPT_Mini_Project/blob/main/pandas_folium/%EC%84%9C%EC%9A%B8%ED%8A%B9%EB%B3%84%EC%8B%9C_%EB%B0%95%EB%AC%BC%EA%B4%80%EB%AF%B8%EC%88%A0%EA%B4%80%EC%A0%95%EB%B3%B4_20230323.csv)
 - 설명 : 서울특별시에 소재하는 박물관, 미술관 정보
 - 시설명, 구분(공립, 사립), 도로명주소, 위도, 경도, 전화번호, 운영기관명, 홈페이지 주소, 관람료, 운영시간 정보 등을 제공
 
